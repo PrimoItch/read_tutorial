@@ -10,11 +10,17 @@ import FunctionClick from './Components/FunctionClick'
 import ClassClick from './Components/ClassClick'
 import EventBind from  './Components/EventBind'
 import ParentComponent from './Components/ParentComponent'
+import NameList from './Components/NameList'
+import Stlesheet from './Components/Stlesheet'
+import InlineFormat from './Components/InlineFormat'
+import s from './Components/appStyles.module.css'
+import './Components/myStyles.css'
+import Form from './Components/Form'
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent></ParentComponent>
+      <Form></Form>
     </div>
   );
 }
